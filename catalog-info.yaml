@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-dev-ec2"
+  description: "backstage dev env"
+  annotations:
+    github.com/project-slug: shridharMe/aws-backstage-dev
+    backstage.io/techdocs-ref: dir:.
+    aws.amazon.com/aws-proton-service: arn:aws:proton:eu-west-2:753690273280:service/backstage-dev-ec2
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "saspatil"
